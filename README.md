@@ -12,11 +12,11 @@ Steps followed:
   2. Create local Git repository.
   3. Add classmate as a Collaborator on GitHub repository. 
   4. Initialize Commit - git init
-  5. Create new branch in repository - git checkout -b <branch-name>
+  5. Create new branch in repository - git checkout -b branch-name
   6. Create a new name.py - echo "print(' My name is...')" > name.py.
   7. Add name.py file to  repository - git add > name.py
   8. Commit the file - git commit -m "intended message"
-  9. Push the created branch to GitHub - git push -u origin <branch-name>
+  9. Push the created branch to GitHub - git push -u origin branch-name 
   10. Open Github > Respository > Branches
   11. Create Pull Request (PR) by clicking green "Compare & pull request" button.
   12. Add Collaborator as Reviewer and wait for approvals.
