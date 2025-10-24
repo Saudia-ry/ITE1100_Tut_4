@@ -4,24 +4,51 @@ Name: Saudia Ishmeal
 
 Collaborator: Stephan Sewpersaud
 
-The purpose of creating this respository was to familiarize the student with the Git and GitHub interface.. To craft a hands-pn experience, learning how to create a repository, manage branches, collaborate with peers, and submit pull requests for
-review, mirroring real-world software development workflows.
+The purpose of creating this respository was to familiarize the student with the Git and GitHub interface. This is a step-by-step outline of the actions taken to create a respository, to engage a collaborator, add brnaches, a name.py file, commit the file then push the branch to Github. After which a PR request will be made, approved by the collaborator then merged into the main (master) branch.
 
 Steps followed: 
   1. Creation of a GitHub account and downloading Git software.
-  2. Create local Git repository.
-  3. Add classmate as a Collaborator on GitHub repository. 
-  4. Initialize Commit - _git init_
-  5. Create new branch in repository - _git checkout -b branch-name_
-  6. Create a new name.py - _echo "print(' My name is...')" > name.py_
-  7. Add name.py file to  repository - _git add > name.py_
-  8. Commit the file - _git commit -m "intended message"_
-  9. Push the created branch to GitHub - _git push -u origin branch-name_ 
-  10. Open Github > Respository > Branches
-  11. Create Pull Request (PR) by clicking green _"Compare & pull request"_ button.
-  12. Add Collaborator as Reviewer and wait for approvals.
-  13. Once approved, merge created branch into the main (master) branch by clicking the purple _"Merge Pull Request"_ button.
-  14. On the main respositiory page, click _Add a README.md_ and in the description section outline the details of the steps taken.
+  2. Create a repository in Github and add classmate as a Collaborator on GitHub repository.
+  3. Create local Git repository using Git Bash (Software).
+
+    mkdir _give-name_ (mkdir means make directory and this is simply creating the folder on your local computer. Name the directory accoringly. _No spaces. Use underscore or dash in place of a space if necessary_.)
+     
+     cd _give-name (cd means change directory, or 'go-to' directory.)
+     
+  4. Initialize Commit
+
+    git init (This initializes the local repository you made.)
+
+  6. Link the local respository to the respository in Github.
+
+    git remote add origin https://github.com/user-name/repository-name.git (You can get the link by going to your created github respository then clicking the green button that says _Code_.)
+     You can validate it has been linked by running the command git remote -v
+
+  7. Create new branch in repository
+    
+    git checkout -b branch-name (Like the directory, the branch should be named appropriately.)
+     
+  8. Create a new name.py
+
+    echo "print(' My name is...')" > name.py
+      
+  9. Add name.py file to  repository.
+
+    git add name.py_
+     
+  10. Commit the file.
+     
+    git commit -m "intended message"
+    
+  11. Push the created branch to GitHub.
+
+    git push -u origin branch-name
+    
+  12. Open Github > Respository > Branches
+  13. Create Pull Request (PR) by clicking green _"Compare & pull request"_ button.
+  14. Add Collaborator as Reviewer and wait for approvals.
+  15. Once approved, merge created branch into the main (master) branch by clicking the purple _"Merge Pull Request"_ button.
+  16. On the main respositiory page, click _Add a README.md_ and in the description section outline the details of the steps taken.
 
 To complete these steps, further guidance along each step was referenced from the Hubspot's An Intro to Git and GitHub for Beginners (Tutorial). 
 
