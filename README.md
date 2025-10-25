@@ -4,7 +4,7 @@ Name: Saudia Ishmeal
 
 Collaborator: Stephan Sewpersaud
 
-The purpose of creating this respository was to familiarize the student with the Git and GitHub interface. This is a step-by-step outline of the actions taken to create a respository, to engage a collaborator, add brnaches, a name.py file, commit the file then push the branch to Github. After which a PR request will be made, approved by the collaborator then merged into the main (master) branch.
+The purpose of creating this respository was to familiarize the student with the Git and GitHub interface. This is a step-by-step outline of the actions taken to create a respository, to engage a collaborator, add branches, a name.py file, commit the file then push the branch to Github. After which a PR request will be made, approved by the collaborator then the created branch will be merged into the main (master) branch.
 
 Steps followed: 
   1. Creation of a GitHub account and downloading Git software.
