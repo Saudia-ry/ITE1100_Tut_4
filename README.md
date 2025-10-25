@@ -15,7 +15,7 @@ Steps followed:
      
      cd <given-name> (cd means change directory, or 'go-to' directory.)
      
-  4. Initialize Commit
+  4. Initialize Commit.
 
     git init (This initializes the local repository you made.)
 
@@ -24,7 +24,7 @@ Steps followed:
     git remote add origin https://github.com/user-name/repository-name.git (You can get the link by going to your created github respository then clicking the green button that says <Code>.)
      You can validate it has been linked by running the command git remote -v
 
-  7. Create new branch in repository
+  7. Create new branch in repository.
     
     git checkout -b <branch-name> (Like the directory, the branch should be named appropriately.)
      
@@ -44,7 +44,7 @@ Steps followed:
 
     git push -u origin <branch-name> 
     
-  12. Open Github > Respository > Branches
+  12. Open Github > Respository > Branches.
   13. Create Pull Request (PR) by clicking green _"Compare & pull request"_ button.
   14. Add Collaborator as Reviewer and wait for approvals.
   15. Once approved, merge created branch into the main (master) branch by clicking the purple _"Merge Pull Request"_ button.
