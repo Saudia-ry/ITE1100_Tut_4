@@ -38,11 +38,11 @@ Steps followed:
      
   10. Commit the file.
      
-    git commit -m "intended message"
+    git commit -m "intended message" (Within the quotes you can make any comment/leave a message for your collaborators regarding the added file.)
     
   11. Push the created branch to GitHub.
 
-    git push -u origin branch-name
+    git push -u origin branch-name 
     
   12. Open Github > Respository > Branches
   13. Create Pull Request (PR) by clicking green _"Compare & pull request"_ button.
