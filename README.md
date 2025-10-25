@@ -28,15 +28,15 @@ Steps followed:
     
     git checkout -b <branch-name> (Like the directory, the branch should be named appropriately.)
      
-  8. Create a new name.py
+  8. Create a new name.py or file. (If needed.)
 
     echo "print(' My name is...')" > name.py
       
   9. Add name.py file to  repository.
 
-    git add name.py
+    git add name.py  (This command is used to add any file for the respository)
      
-  10. Commit the file.
+  10. After adding a file, you must commit the file.
      
     git commit -m "intended message" (Within the quotes you can make any comment/leave a message for your collaborators regarding the added file.)
     
