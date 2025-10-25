@@ -11,9 +11,9 @@ Steps followed:
   2. Create a repository in Github and add classmate as a Collaborator on GitHub repository.
   3. Create local Git repository using Git Bash (Software).
 
-    mkdir _give-name_ (mkdir means make directory and this is simply creating the folder on your local computer. Name the directory accoringly. _No spaces. Use underscore or dash in place of a space if necessary_.)
+    mkdir <given-name> (mkdir means make directory and this is simply creating the folder on your local computer. Name the directory accoringly. No spaces. Use underscore or dash in place of a space if necessary.)
      
-     cd _give-name (cd means change directory, or 'go-to' directory.)
+     cd <given-name> (cd means change directory, or 'go-to' directory.)
      
   4. Initialize Commit
 
@@ -21,12 +21,12 @@ Steps followed:
 
   6. Link the local respository to the respository in Github.
 
-    git remote add origin https://github.com/user-name/repository-name.git (You can get the link by going to your created github respository then clicking the green button that says _Code_.)
+    git remote add origin https://github.com/user-name/repository-name.git (You can get the link by going to your created github respository then clicking the green button that says <Code>.)
      You can validate it has been linked by running the command git remote -v
 
   7. Create new branch in repository
     
-    git checkout -b branch-name (Like the directory, the branch should be named appropriately.)
+    git checkout -b <branch-name> (Like the directory, the branch should be named appropriately.)
      
   8. Create a new name.py
 
@@ -34,7 +34,7 @@ Steps followed:
       
   9. Add name.py file to  repository.
 
-    git add name.py_
+    git add name.py
      
   10. Commit the file.
      
@@ -42,7 +42,7 @@ Steps followed:
     
   11. Push the created branch to GitHub.
 
-    git push -u origin branch-name 
+    git push -u origin <branch-name> 
     
   12. Open Github > Respository > Branches
   13. Create Pull Request (PR) by clicking green _"Compare & pull request"_ button.
